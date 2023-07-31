@@ -142,7 +142,7 @@
         background-color: #430508;
         flex-wrap: wrap;
         width: 300px;
-        background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #430508 80%);
+        background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #430508 45%);
     }
 
     .contacs{

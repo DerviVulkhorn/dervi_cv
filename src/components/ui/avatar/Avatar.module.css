@@ -1,0 +1,31 @@
+.image_decor {
+    position: relative;
+    display: table;
+    margin: 10px;
+    margin-bottom: 60px;
+    border: 5px solid #520705;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
+ }
+ .image_decor:before, .image_decor:after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    height: 55px;
+    background: #430508;
+    box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, .1);
+    margin: 10px;
+ }
+ .image_decor:before {
+    left: -50px;
+    bottom: -30px;
+    transform: rotate(30deg);
+ }
+ .image_decor:after {
+    right: -50px;
+    bottom: -30px;
+    transform: rotate(-30deg);
+ }
+ .image_decor img {
+    display: block;
+ }

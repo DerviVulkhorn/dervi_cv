@@ -1,0 +1,39 @@
+
+  .btn {
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #ffffff;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #fff;
+    
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  .btn:hover span {
+    transition: 1s ease-in-out;
+    color: black;
+  }
+  .btn span {
+    transition: 1s ease-in-out;
+    color: white;
+  }

@@ -7,6 +7,7 @@
 
 .card_place{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: black;
 }
@@ -51,6 +52,7 @@
     margin: 10px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -73,4 +75,55 @@
     padding: 2px; /* Поля */
     font-size: 1.5em; /* Размер шрифта */
     word-wrap: break-word; /* Перенос слов */
+}
+
+/* Для адаптивности */
+/*Большие дивайсы*/
+@media only screen and (max-width:1200px) {
+    
+}
+
+/*Средние дивайсы*/
+@media only screen and (max-width:992px) {
+    .contacs{
+        border: 2px solid #430508;
+        padding: 10px;
+        width: 330px;
+    }
+}
+
+/*Малые дивайсы*/
+@media only screen and (max-width:768px) {
+    .contacs{
+        border: 2px solid #430508;
+        padding: 10px;
+        width: 330px;
+    }
+}
+
+/*Телефоны*/
+@media only screen and (max-width:480px) {
+    .contacs{
+        border: 2px solid #430508;
+        padding: 10px;
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .main{
+        font-size: 14px;
+    }
+    .header{
+        padding: 10px;
+        background-color: #430508;
+        flex-wrap: wrap;
+    }
+
+    .contacs{
+        border: 2px solid #430508;
+        padding: 10px;
+        width: 330px;
+        
+    }
 }

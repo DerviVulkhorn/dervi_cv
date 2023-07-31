@@ -1,6 +1,6 @@
 //raface
 import React from 'react'
-import style from './Sbutton.module.css'
+import style from './SButton.module.css'
 
 const SButton = ({text, onClick, herf, target}) => {
   return (
